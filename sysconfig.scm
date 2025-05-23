@@ -26,10 +26,10 @@
   ;; The list of user accounts ('root' is implicit).
   (users
     (cons* (user-account
-             (name "userguix")
-             (comment "guixiser")
+             (name "ganeshguix")
+             (comment "Ganesh")
              (group "users")
-             (home-directory "/home/userguix")
+             (home-directory "/home/ganeshguix")
              (supplementary-groups '("wheel" "netdev" "audio" "video")))
            %base-user-accounts))
 
